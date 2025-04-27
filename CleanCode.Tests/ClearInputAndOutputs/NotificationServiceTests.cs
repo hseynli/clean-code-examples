@@ -1,7 +1,7 @@
 ﻿using CleanCode.CleanCode.ClearInputAndOutputs;
 using CleanCode.Common;
 
-namespace CleanCode.Tests;
+namespace CleanCode.Tests.ClearInputAndOutputs;
 
 public class NotificationServiceTests
 {

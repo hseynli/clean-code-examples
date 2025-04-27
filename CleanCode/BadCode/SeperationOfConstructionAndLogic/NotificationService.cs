@@ -7,6 +7,7 @@ public class NotificationService
     private readonly bool _useHtml;
     private readonly bool _includeTrackingLink;
 
+    // Don't write logic in the constructor!
     public NotificationService(string serverType, Order order)
     {
         if (serverType == "Exchange")

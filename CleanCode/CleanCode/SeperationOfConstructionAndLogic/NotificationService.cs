@@ -1,6 +1,4 @@
-﻿using CleanCode.Common;
-
-namespace CleanCode.SeperationOfConstructionAndLogic;
+﻿namespace CleanCode.SeperationOfConstructionAndLogic;
 
 public class NotificationFormat
 {
@@ -11,10 +9,12 @@ public class NotificationFormat
     {
         Html = useHtml;
     }
+
     public static NotificationFormat Create(string serverType)
     {
         return serverType == "Exchange" ? new NotificationFormat(true) : new NotificationFormat(false);
     }
+
     public void WithTrackingLink()
     {
         IncludeTrackingLink = true;

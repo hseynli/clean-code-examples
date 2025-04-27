@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5449223D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode.Tests", "CleanCode.Tests\CleanCode.Tests.csproj", "{A76A115F-F98A-44FD-8DF9-7E0FF6026124}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exercies", "exercies", "{F76DDB56-7B25-4890-BCA8-15A96CBD27DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Exercises\Exercises.csproj", "{C9633E64-FF7D-4C22-83DC-EF598A0CBE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises.Tests", "Exercises.Tests\Exercises.Tests.csproj", "{A3682299-5E0E-4B4A-8753-21C9999DE64F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,14 @@ Global
 		{A76A115F-F98A-44FD-8DF9-7E0FF6026124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A76A115F-F98A-44FD-8DF9-7E0FF6026124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A76A115F-F98A-44FD-8DF9-7E0FF6026124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9633E64-FF7D-4C22-83DC-EF598A0CBE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9633E64-FF7D-4C22-83DC-EF598A0CBE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9633E64-FF7D-4C22-83DC-EF598A0CBE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9633E64-FF7D-4C22-83DC-EF598A0CBE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3682299-5E0E-4B4A-8753-21C9999DE64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3682299-5E0E-4B4A-8753-21C9999DE64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3682299-5E0E-4B4A-8753-21C9999DE64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3682299-5E0E-4B4A-8753-21C9999DE64F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{189E2F93-3580-416F-B004-7208CB06E7E1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{A76A115F-F98A-44FD-8DF9-7E0FF6026124} = {5449223D-91AA-4B98-A37D-1E971C97774A}
+		{C9633E64-FF7D-4C22-83DC-EF598A0CBE4A} = {F76DDB56-7B25-4890-BCA8-15A96CBD27DB}
+		{A3682299-5E0E-4B4A-8753-21C9999DE64F} = {F76DDB56-7B25-4890-BCA8-15A96CBD27DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7EBB69A3-00AC-41A3-ABC9-BF978BD15FDE}
