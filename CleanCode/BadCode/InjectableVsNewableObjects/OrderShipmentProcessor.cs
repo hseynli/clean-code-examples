@@ -5,6 +5,7 @@ public class OrderShipmentProcessor
     public void ProcessShipment(Order order)
     {
         var shippingCalculator = new ShippingRateCalculator();
+
         decimal shippingCost = shippingCalculator.CalculateRate(
             order.ShippingAddress,
             order.TotalWeight);
